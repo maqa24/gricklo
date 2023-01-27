@@ -936,12 +936,17 @@ footer{
 .social{
   margin-top: 15px;
   display: flex;
-  gap: 10px;
+  gap: 20px;
 
 }
-.social i{
-  color: #A4A6AE
+.social a i{
+  color: #A4A6AE;
+  transition: all .4s ease-out;
 }
+.social a:hover i{
+  transform: rotateY(180deg);
+  color: #4DB7FE;
+} 
 .foot2{
   margin-left: 110px;
   width: 196px;
