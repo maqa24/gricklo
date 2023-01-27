@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      tr,
+      td,
+      th,
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>Food blog</h1>
+      <ul>
+        <li><a href="#">Ana səhifə</a></li>
+        <li><a href="#">Form</a></li>
+        <li><a href="#">Table</a></li>
+      </ul>
+    </nav>
+    <hr />
+    <br />
+    <section>
+      <h2>Məlumat formu</h2>
+      <br />
+      <form>
+        <label for="name">Ad</label><br />
+        <input type="text" name="fname" id="name" placeholder="Adı" />
+        <br />
+        <label for="lname">Soyad</label><br />
+        <input type="text" name="lname" id="lname" placeholder="Soyadı" />
+        <br />
+        <label for="date"> Doğum tarixi</label><br />
+        <input type="date" id="date" name="date" />
+        <br />
+        <label for="number">Telefon</label><br />
+        <input type="tel" name="number" id="number" placeholder="0556666666" />
+        <br />
+        <label for="cins">Cinsi</label><br />
+        <select type="select" name="cins" id="cins">
+          <option value="Kişi">Kişi</option>
+          <option value="Qadın">Qadın</option>
+        </select>
+      </form>
+    </section>
+    <hr />
+    <section>
+      <h2>Ailə vəziyyəti</h2>
+      <br />
+      <input type="radio" name="evli" id="evli" value="Evli" />
+      <label for="Evli">Evli</label><br />
+      <input type="radio" name="evli" id="evli" value="Subay" />
+      <label for="Subay">Subay</label>
+    </section>
+    <hr />
+    <section>
+      <h2>Maraq dairəsi</h2>
+      <br />
+      <input type="checkbox" id="avto" />
+      <label for="avto">Avtomobil</label><br />
+      <input type="checkbox" id="texno" />
+      <label for="texno">Texnologiya</label><br />
+      <input type="checkbox" id="texno" />
+      <label for="texno">Elm</label><br />
+      <input type="checkbox" id="texno" />
+      <label for="texno">Musiqi</label><br />
+      <input type="checkbox" id="texno" />
+      <label for="texno">Incəsənət</label><br />
+      <input type="checkbox" id="texno" />
+      <label for="texno">Heyvanlar</label><br />
+    </section>
+    <hr />
+    <section>
+      <h2>Əlavə məlumatlar</h2>
+      <label for="textarea">Qeyd:</label><br />
+      <textarea
+        name="text"
+        id="textarea"
+        cols="30"
+        rows="10"
+        placeholder="Əlavə qeydlərinizi bura yaza bilərsiniz..."
+      ></textarea
+      ><br />
+      <input type="submit" value="Göndər" />
+    </section>
+    <hr />
+    <section>
+      <table>
+        <tr>
+          <th>Ad</th>
+          <th>Soyad</th>
+          <th>Yas</th>
+          <th>Telefon</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>Brat</td>
+          <td>Traversy</td>
+          <td>32</td>
+          <td>0556767676</td>
+          <td>Evli</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>28</td>
+          <td>0558484848</td>
+          <td>Subay</td>
+        </tr>
+      </table>
+    </section>
+    <hr />
+    <footer>
+      <h3>Əlaqə</h3>
+      <ul>
+        <li>Baku, Azerbaijan</li>
+        <li><a href="#"> +994557676868</a></li>
+        <li><a href="mailto:contact@gmail.com">contact@gmail.com</a></li>
+      </ul>
+      <hr />
+      <br />
+      <span> Copyright <strong>2022</strong></span>
+    </footer>
+    <script src="https://kit.fontawesome.com/2321f02cb3.js" crossorigin="anonymous"> </script>
+  </body>
+</html>
